@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Valentín Romántico</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffcccc;
+            font-family: 'Georgia', serif;
+        }
+        .card {
+            background: #fff;
+            padding: 30px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 320px;
+        }
+        .heart {
+            font-size: 70px;
+            color: #ff4d4d;
+        }
+        .message {
+            font-size: 20px;
+            margin-top: 15px;
+            color: #b30000;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="heart">💘</div>
+        <h2>Mi Amor Eterno</h2>
+        <p class="message">Cada día a tu lado es un regalo. ¡Te amo con todo mi corazón!</p>
+    </div>
+</body>
+</html>
